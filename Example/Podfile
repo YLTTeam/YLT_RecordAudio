@@ -1,0 +1,11 @@
+#use_frameworks!
+
+target 'YLT_RecordAudio_Example' do
+  pod 'YLT_RecordAudio', :path => '../'
+
+  target 'YLT_RecordAudio_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

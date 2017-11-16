@@ -162,7 +162,7 @@ static NSInteger kRemainTime;
 
 - (UIImageView *)micPhoneVolume {
     if (!_micPhoneVolume) {
-        _micPhoneVolume = [[UIImageView alloc] initWithFrame:CGRectMake((self.bounds.size.width - 36)/2, (self.bounds.size.height - 60 - 16 - 20) / 2, 36, 60)];
+        _micPhoneVolume = [[UIImageView alloc] initWithFrame:CGRectMake((self.bounds.size.width - 60)/2, (self.bounds.size.height - 68 - 16 - 20) / 2, 60, 68)];
         _micPhoneVolume.contentMode = UIViewContentModeScaleAspectFit;
         _micPhoneVolume.image = YLT_RecordImage(@"voice_record_0");
     }

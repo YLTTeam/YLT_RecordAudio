@@ -26,6 +26,8 @@
     btn.frame = CGRectMake(100, 100, 100, 100);
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(beginRecordVoice:) forControlEvents:UIControlEventTouchDown];
+    [btn addTarget:self action:@selector(cancelRecordVoice:) forControlEvents:UIControlEventTouchDragOutside];
+    [btn addTarget:self action:@selector(continueRecord) forControlEvents:UIControlEventTouchDragInside];
     [btn addTarget:self action:@selector(completeRecordVoice:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
@@ -56,8 +58,10 @@
     
     [[YLT_RecordManager manager] YLT_StartRecord];
     [YLT_RecordProgressHUD YLT_Show];
-    
-    button.userInteractionEnabled = NO;
+}
+
+- (void)continueRecord {
+    [YLT_RecordProgressHUD YLT_RecordStatus:YLT_RecordStatusRecording];
 }
 
 // 完成录音
@@ -67,9 +71,9 @@
 
 // 取消录音
 - (void)cancelRecordVoice:(UIButton *)button {
-    [[YLT_RecordManager manager] YLT_CancelRecord];
-    
-    [YLT_RecordProgressHUD YLT_RecordStatus:YLT_RecordStatusCancel];
+    [YLT_RecordProgressHUD YLT_RecordStatus:YLT_RecordStatusLooseToCancel];
+//    [[YLT_RecordManager manager] YLT_CancelRecord];
+//    [YLT_RecordProgressHUD YLT_RecordStatus:YLT_RecordStatusCancel];
 }
 
 // 松手停止录音

@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0797AE7FF17695FEFA565DE8082A99B4 /* voice_record_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 735358B60E92EB548B6A0BDEB6B05B50 /* voice_record_3.png */; };
+		0A97B786963AB9466DD506761C4F8F9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0DCFDB5044943923EA18AA96E0233612 /* YLT_RecordHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F06C6DCF8C2AB21CE84CB78F2D5B6 /* YLT_RecordHelper.m */; };
+		0EAE95F11D08938F6118E77DE3EE3992 /* YLT_RecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFD4560ED32B1E86D12397800381BBB /* YLT_RecordManager.m */; };
+		172626000D354D3FC26C605D5A71DA50 /* voice_record_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C07CCADD29AC7BCFF0165773ADC0736 /* voice_record_2.png */; };
+		1E37AD68F0F2C67044F4F357CB37957C /* voice_record_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E008C2CE711369F0BDA89FE8A4A84A /* voice_record_0.png */; };
+		264422694A634D8AA3C75A5ECF45F1C3 /* voice_record_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 445640A3938C5F79FE8821DC61973734 /* voice_record_5.png */; };
+		27D26ED5AC936051FDB15ECC161C3A60 /* voice_record_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2308F1B47CABCA8E671E324A2196DAB2 /* voice_record_7.png */; };
+		2FFA01BE1C44DC0BF183748B2A9BF4D2 /* YLT_RecordHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD78FECED3BB91617E9F5AF08896586 /* YLT_RecordHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DAF34233B8B07C22DDCD3FD0364E6AE /* Pods-YLT_RecordAudio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEB43B37499813921D0869454351E03 /* Pods-YLT_RecordAudio_Example-dummy.m */; };
+		3E3D3B7392F6FF4829D4FA33D616BC72 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4C10E2BF9EE3A06639EC538571E2C /* AudioStreamer.m */; };
+		4FB3CDA3224A8ACAD61EADBD6A3D01D8 /* voice_record_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3249BE87C4D8192B8DF97ABEACC90538 /* voice_record_cancel.png */; };
+		522C915537DF4B7F0E5DFE3BF082D8CB /* YLT_RecordProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B9466C10DE72EFFC2D67A1A379BC2E1B /* YLT_RecordProgressHUD.m */; };
+		53DDC2999B5ACD7D7224B10ABFA33DDB /* AudioStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = F09C96563BCB1269AB6A451B51B184C6 /* AudioStreamer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1BF5133BDC63BB9114D401225AD9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5CE335CE35CC2342CE963253BBC8909F /* voice_record_tooshort.png in Resources */ = {isa = PBXBuildFile; fileRef = EED443B352D82ECC581AE025994CCCB5 /* voice_record_tooshort.png */; };
+		6CAE59F1B70813A4C8FC9151C5BFB0DB /* voice_record_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70DEC63172C7B8A6A3E5400F67151CDE /* voice_record_1.png */; };
+		9F48139B7B0EA7BCEC0428EA7508ED6A /* Pods-YLT_RecordAudio_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB09DEA6A94090C7EA2FE993EC0FBB60 /* Pods-YLT_RecordAudio_Tests-dummy.m */; };
+		A2C8A8AC70D088DFB6E2D1795CD2B72A /* YLT_RecordAudio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E185733AF55B8DEB6F5AEBBA741E9 /* YLT_RecordAudio-dummy.m */; };
+		B1548F300A780B545CFA5EC51E56E7E6 /* voice_record_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 14659C3BBACF51AFE203784560EC2CE0 /* voice_record_4.png */; };
+		B55D1360324AF5DDC849A3DEDF9A8394 /* YLT_RecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 76644029D685F55E83CDEB0D21FF0E14 /* YLT_RecordManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1EA9924B9010F910103A6ABA697B412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D69954FD329CBE6728A6701E1F1CB387 /* voice_record_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B501B1D805041934782032622C7C10 /* voice_record_6.png */; };
+		D742CF08154A8AC2F42F63DB03219656 /* YLT_RecordProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0085C5A52A315962F9BCDB34962D83BE /* YLT_RecordProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE2582E50776E0336CE282ABC3E671BF /* YLT_RecordAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = E3536C5BB8EAACCD9569E252CA0D8D2B /* YLT_RecordAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D15E0A578A77E1DCF4F7FF27D036A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7840E24FCD2DEF27B4B055644B02BEB7;
+			remoteInfo = YLT_RecordAudio;
+		};
+		7C07DDAEAC44C69E507E2D5590717548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 529A9B64F2D738F8AA2952594FD2FDC8;
+			remoteInfo = "YLT_RecordAudio-YLT_RecordAudio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0085C5A52A315962F9BCDB34962D83BE /* YLT_RecordProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLT_RecordProgressHUD.h; sourceTree = "<group>"; };
+		00D67323C658C2DF05486BD1A7E911B7 /* ResourceBundle-YLT_RecordAudio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YLT_RecordAudio-Info.plist"; sourceTree = "<group>"; };
+		08200E236FADC511540F9C22CF58906C /* Pods-YLT_RecordAudio_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_RecordAudio_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0EB237DCF30112EEF0158C61D13A104E /* YLT_RecordAudio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLT_RecordAudio.xcconfig; sourceTree = "<group>"; };
+		14659C3BBACF51AFE203784560EC2CE0 /* voice_record_4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_4.png; path = YLT_RecordAudio/Assets/voice_record_4.png; sourceTree = "<group>"; };
+		1549127BDC4DCD7E6C5B8970F172243E /* Pods-YLT_RecordAudio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLT_RecordAudio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FD78FECED3BB91617E9F5AF08896586 /* YLT_RecordHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLT_RecordHelper.h; sourceTree = "<group>"; };
+		2292274C02857CC49F6709FEEF399CF6 /* libPods-YLT_RecordAudio_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YLT_RecordAudio_Example.a"; path = "libPods-YLT_RecordAudio_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2308F1B47CABCA8E671E324A2196DAB2 /* voice_record_7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_7.png; path = YLT_RecordAudio/Assets/voice_record_7.png; sourceTree = "<group>"; };
+		2C07CCADD29AC7BCFF0165773ADC0736 /* voice_record_2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_2.png; path = YLT_RecordAudio/Assets/voice_record_2.png; sourceTree = "<group>"; };
+		3249BE87C4D8192B8DF97ABEACC90538 /* voice_record_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_cancel.png; path = YLT_RecordAudio/Assets/voice_record_cancel.png; sourceTree = "<group>"; };
+		3709FF709210C007336DF752AA98E3C9 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = libmp3lame/Lame/lame.h; sourceTree = "<group>"; };
+		445640A3938C5F79FE8821DC61973734 /* voice_record_5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_5.png; path = YLT_RecordAudio/Assets/voice_record_5.png; sourceTree = "<group>"; };
+		496E185733AF55B8DEB6F5AEBBA741E9 /* YLT_RecordAudio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLT_RecordAudio-dummy.m"; sourceTree = "<group>"; };
+		4E5426B21B89EC03D322A030408038B6 /* Pods-YLT_RecordAudio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_RecordAudio_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5112EF768204DDF855EA60FD2088AE59 /* Pods-YLT_RecordAudio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLT_RecordAudio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A39141A76680C701F1EF4D09FEB3300 /* Pods-YLT_RecordAudio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_RecordAudio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CEE76419E4253DA4E25A608ED16A803 /* Pods-YLT_RecordAudio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_RecordAudio_Example.release.xcconfig"; sourceTree = "<group>"; };
+		70DEC63172C7B8A6A3E5400F67151CDE /* voice_record_1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_1.png; path = YLT_RecordAudio/Assets/voice_record_1.png; sourceTree = "<group>"; };
+		735358B60E92EB548B6A0BDEB6B05B50 /* voice_record_3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_3.png; path = YLT_RecordAudio/Assets/voice_record_3.png; sourceTree = "<group>"; };
+		76644029D685F55E83CDEB0D21FF0E14 /* YLT_RecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLT_RecordManager.h; sourceTree = "<group>"; };
+		7B6F06C6DCF8C2AB21CE84CB78F2D5B6 /* YLT_RecordHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLT_RecordHelper.m; sourceTree = "<group>"; };
+		7E4A01F6F62649B9594B8168700DBE40 /* Pods-YLT_RecordAudio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_RecordAudio_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82B501B1D805041934782032622C7C10 /* voice_record_6.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_6.png; path = YLT_RecordAudio/Assets/voice_record_6.png; sourceTree = "<group>"; };
+		8919811DCA19B930E4820845EA2FC95C /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = libmp3lame/Lame/libmp3lame.a; sourceTree = "<group>"; };
+		8BA4C10E2BF9EE3A06639EC538571E2C /* AudioStreamer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		8F9BACC94361BC4E6317E50120196EBA /* Pods-YLT_RecordAudio_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_RecordAudio_Tests-resources.sh"; sourceTree = "<group>"; };
+		90E008C2CE711369F0BDA89FE8A4A84A /* voice_record_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_0.png; path = YLT_RecordAudio/Assets/voice_record_0.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABFD4560ED32B1E86D12397800381BBB /* YLT_RecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLT_RecordManager.m; sourceTree = "<group>"; };
+		B225AC403DE46C479B1497D6397DCABF /* Pods-YLT_RecordAudio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLT_RecordAudio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9466C10DE72EFFC2D67A1A379BC2E1B /* YLT_RecordProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLT_RecordProgressHUD.m; sourceTree = "<group>"; };
+		BDDB131A63DE14893D7629AFA5AC8A88 /* YLT_RecordAudio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLT_RecordAudio-prefix.pch"; sourceTree = "<group>"; };
+		C42C327FD654CEED23448A0EB401B843 /* libPods-YLT_RecordAudio_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YLT_RecordAudio_Tests.a"; path = "libPods-YLT_RecordAudio_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEB43B37499813921D0869454351E03 /* Pods-YLT_RecordAudio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLT_RecordAudio_Example-dummy.m"; sourceTree = "<group>"; };
+		CF9374565FA5ED72C9D7E0B80A239208 /* libYLT_RecordAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYLT_RecordAudio.a; path = libYLT_RecordAudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F74E7A106DE06F163BF5B63F61F2D9 /* Pods-YLT_RecordAudio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_RecordAudio_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E3536C5BB8EAACCD9569E252CA0D8D2B /* YLT_RecordAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_RecordAudio.h; path = YLT_RecordAudio/Classes/YLT_RecordAudio.h; sourceTree = "<group>"; };
+		EB09DEA6A94090C7EA2FE993EC0FBB60 /* Pods-YLT_RecordAudio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLT_RecordAudio_Tests-dummy.m"; sourceTree = "<group>"; };
+		EED443B352D82ECC581AE025994CCCB5 /* voice_record_tooshort.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = voice_record_tooshort.png; path = YLT_RecordAudio/Assets/voice_record_tooshort.png; sourceTree = "<group>"; };
+		F09C96563BCB1269AB6A451B51B184C6 /* AudioStreamer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		F2075BF87B4ED21B750AECB59B90BEBC /* Pods-YLT_RecordAudio_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLT_RecordAudio_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC0B4499F8BBBBB6982FBA552248E598 /* Pods-YLT_RecordAudio_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_RecordAudio_Example-resources.sh"; sourceTree = "<group>"; };
+		FF84CD20D92A018A98E63A04E5B1B6F2 /* YLT_RecordAudio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YLT_RecordAudio.bundle; path = "YLT_RecordAudio-YLT_RecordAudio.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9165E81257EB22EDC4666F5BC61B3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EA339447E44E560484254B4AF2B3DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EA9924B9010F910103A6ABA697B412 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F073125059B95487342A9AAB284294C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1BF5133BDC63BB9114D401225AD9CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11ACC1660BA946379592329F962C8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A97B786963AB9466DD506761C4F8F9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020DFD2EA84DBF96715EEBE2C82760FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FD78FECED3BB91617E9F5AF08896586 /* YLT_RecordHelper.h */,
+				7B6F06C6DCF8C2AB21CE84CB78F2D5B6 /* YLT_RecordHelper.m */,
+				76644029D685F55E83CDEB0D21FF0E14 /* YLT_RecordManager.h */,
+				ABFD4560ED32B1E86D12397800381BBB /* YLT_RecordManager.m */,
+			);
+			name = Model;
+			path = YLT_RecordAudio/Classes/Model;
+			sourceTree = "<group>";
+		};
+		14271563A2E71ED87BCB4D9670BBB4CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90E008C2CE711369F0BDA89FE8A4A84A /* voice_record_0.png */,
+				70DEC63172C7B8A6A3E5400F67151CDE /* voice_record_1.png */,
+				2C07CCADD29AC7BCFF0165773ADC0736 /* voice_record_2.png */,
+				735358B60E92EB548B6A0BDEB6B05B50 /* voice_record_3.png */,
+				14659C3BBACF51AFE203784560EC2CE0 /* voice_record_4.png */,
+				445640A3938C5F79FE8821DC61973734 /* voice_record_5.png */,
+				82B501B1D805041934782032622C7C10 /* voice_record_6.png */,
+				2308F1B47CABCA8E671E324A2196DAB2 /* voice_record_7.png */,
+				3249BE87C4D8192B8DF97ABEACC90538 /* voice_record_cancel.png */,
+				EED443B352D82ECC581AE025994CCCB5 /* voice_record_tooshort.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3CEEF315F1DF399300B329FE8742B140 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86BBFF90149CC0B0E6911FC85D74F7AA /* YLT_RecordAudio */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433A6C0EE6F6830AD34235C85E5ABB43 /* Pods-YLT_RecordAudio_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B225AC403DE46C479B1497D6397DCABF /* Pods-YLT_RecordAudio_Example-acknowledgements.markdown */,
+				5112EF768204DDF855EA60FD2088AE59 /* Pods-YLT_RecordAudio_Example-acknowledgements.plist */,
+				CCEB43B37499813921D0869454351E03 /* Pods-YLT_RecordAudio_Example-dummy.m */,
+				D3F74E7A106DE06F163BF5B63F61F2D9 /* Pods-YLT_RecordAudio_Example-frameworks.sh */,
+				FC0B4499F8BBBBB6982FBA552248E598 /* Pods-YLT_RecordAudio_Example-resources.sh */,
+				4E5426B21B89EC03D322A030408038B6 /* Pods-YLT_RecordAudio_Example.debug.xcconfig */,
+				6CEE76419E4253DA4E25A608ED16A803 /* Pods-YLT_RecordAudio_Example.release.xcconfig */,
+			);
+			name = "Pods-YLT_RecordAudio_Example";
+			path = "Target Support Files/Pods-YLT_RecordAudio_Example";
+			sourceTree = "<group>";
+		};
+		4778A624CC88B13AB618F27435FE80B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2292274C02857CC49F6709FEEF399CF6 /* libPods-YLT_RecordAudio_Example.a */,
+				C42C327FD654CEED23448A0EB401B843 /* libPods-YLT_RecordAudio_Tests.a */,
+				CF9374565FA5ED72C9D7E0B80A239208 /* libYLT_RecordAudio.a */,
+				FF84CD20D92A018A98E63A04E5B1B6F2 /* YLT_RecordAudio.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642ED38728E64D64ED8D1E56AE799188 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D67323C658C2DF05486BD1A7E911B7 /* ResourceBundle-YLT_RecordAudio-Info.plist */,
+				0EB237DCF30112EEF0158C61D13A104E /* YLT_RecordAudio.xcconfig */,
+				496E185733AF55B8DEB6F5AEBBA741E9 /* YLT_RecordAudio-dummy.m */,
+				BDDB131A63DE14893D7629AFA5AC8A88 /* YLT_RecordAudio-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLT_RecordAudio";
+			sourceTree = "<group>";
+		};
+		6479299769D35DF6855E8FEDEB2500C8 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				F09C96563BCB1269AB6A451B51B184C6 /* AudioStreamer.h */,
+				8BA4C10E2BF9EE3A06639EC538571E2C /* AudioStreamer.m */,
+			);
+			name = Engine;
+			path = YLT_RecordAudio/Classes/Engine;
+			sourceTree = "<group>";
+		};
+		69FF22D091A25BBE059566BFC207F597 /* libmp3lame */ = {
+			isa = PBXGroup;
+			children = (
+				3709FF709210C007336DF752AA98E3C9 /* lame.h */,
+				C45A774AA758E1B302FCC9252D9D42FD /* Frameworks */,
+			);
+			name = libmp3lame;
+			path = libmp3lame;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3CEEF315F1DF399300B329FE8742B140 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B2200F3B6BF92FAD041041A537B3F97D /* Pods */,
+				4778A624CC88B13AB618F27435FE80B7 /* Products */,
+				F700F1A173DE4A0302E696A2B94172C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86BBFF90149CC0B0E6911FC85D74F7AA /* YLT_RecordAudio */ = {
+			isa = PBXGroup;
+			children = (
+				E3536C5BB8EAACCD9569E252CA0D8D2B /* YLT_RecordAudio.h */,
+				6479299769D35DF6855E8FEDEB2500C8 /* Engine */,
+				020DFD2EA84DBF96715EEBE2C82760FB /* Model */,
+				14271563A2E71ED87BCB4D9670BBB4CD /* Resources */,
+				642ED38728E64D64ED8D1E56AE799188 /* Support Files */,
+				C4D14EF9BAC724DE396DF57ACD7C9D2E /* View */,
+			);
+			name = YLT_RecordAudio;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B2200F3B6BF92FAD041041A537B3F97D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69FF22D091A25BBE059566BFC207F597 /* libmp3lame */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C45A774AA758E1B302FCC9252D9D42FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8919811DCA19B930E4820845EA2FC95C /* libmp3lame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4D14EF9BAC724DE396DF57ACD7C9D2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0085C5A52A315962F9BCDB34962D83BE /* YLT_RecordProgressHUD.h */,
+				B9466C10DE72EFFC2D67A1A379BC2E1B /* YLT_RecordProgressHUD.m */,
+			);
+			name = View;
+			path = YLT_RecordAudio/Classes/View;
+			sourceTree = "<group>";
+		};
+		D358380809FD48EFD99F3D86C27F650B /* Pods-YLT_RecordAudio_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1549127BDC4DCD7E6C5B8970F172243E /* Pods-YLT_RecordAudio_Tests-acknowledgements.markdown */,
+				F2075BF87B4ED21B750AECB59B90BEBC /* Pods-YLT_RecordAudio_Tests-acknowledgements.plist */,
+				EB09DEA6A94090C7EA2FE993EC0FBB60 /* Pods-YLT_RecordAudio_Tests-dummy.m */,
+				08200E236FADC511540F9C22CF58906C /* Pods-YLT_RecordAudio_Tests-frameworks.sh */,
+				8F9BACC94361BC4E6317E50120196EBA /* Pods-YLT_RecordAudio_Tests-resources.sh */,
+				6A39141A76680C701F1EF4D09FEB3300 /* Pods-YLT_RecordAudio_Tests.debug.xcconfig */,
+				7E4A01F6F62649B9594B8168700DBE40 /* Pods-YLT_RecordAudio_Tests.release.xcconfig */,
+			);
+			name = "Pods-YLT_RecordAudio_Tests";
+			path = "Target Support Files/Pods-YLT_RecordAudio_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F700F1A173DE4A0302E696A2B94172C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				433A6C0EE6F6830AD34235C85E5ABB43 /* Pods-YLT_RecordAudio_Example */,
+				D358380809FD48EFD99F3D86C27F650B /* Pods-YLT_RecordAudio_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2360774D3635134FF5A311E003569B70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DDC2999B5ACD7D7224B10ABFA33DDB /* AudioStreamer.h in Headers */,
+				DE2582E50776E0336CE282ABC3E671BF /* YLT_RecordAudio.h in Headers */,
+				2FFA01BE1C44DC0BF183748B2A9BF4D2 /* YLT_RecordHelper.h in Headers */,
+				B55D1360324AF5DDC849A3DEDF9A8394 /* YLT_RecordManager.h in Headers */,
+				D742CF08154A8AC2F42F63DB03219656 /* YLT_RecordProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		529A9B64F2D738F8AA2952594FD2FDC8 /* YLT_RecordAudio-YLT_RecordAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F62DB09B7537C64753C8F611F64F40E /* Build configuration list for PBXNativeTarget "YLT_RecordAudio-YLT_RecordAudio" */;
+			buildPhases = (
+				3E7438C7E7C14ACDB5157FD46906DD0F /* Sources */,
+				A9165E81257EB22EDC4666F5BC61B3AE /* Frameworks */,
+				F832527AEB4F425C6ACB6501E337D117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YLT_RecordAudio-YLT_RecordAudio";
+			productName = "YLT_RecordAudio-YLT_RecordAudio";
+			productReference = FF84CD20D92A018A98E63A04E5B1B6F2 /* YLT_RecordAudio.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		598A3245F7F0428D9130C3A7A5505BB8 /* Pods-YLT_RecordAudio_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5F33BA1431C79D988974884AE1B436 /* Build configuration list for PBXNativeTarget "Pods-YLT_RecordAudio_Example" */;
+			buildPhases = (
+				DB22C8D23E6D03C7F9215B97B5D09E7E /* Sources */,
+				F11ACC1660BA946379592329F962C8B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1EFDD8F58CCA118348FB60CACF76C8B /* PBXTargetDependency */,
+			);
+			name = "Pods-YLT_RecordAudio_Example";
+			productName = "Pods-YLT_RecordAudio_Example";
+			productReference = 2292274C02857CC49F6709FEEF399CF6 /* libPods-YLT_RecordAudio_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7840E24FCD2DEF27B4B055644B02BEB7 /* YLT_RecordAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E953683A0D94344C6D35E73E2446A4C /* Build configuration list for PBXNativeTarget "YLT_RecordAudio" */;
+			buildPhases = (
+				A66031F573E3190BE696B2F5EB75E425 /* Sources */,
+				B9EA339447E44E560484254B4AF2B3DE /* Frameworks */,
+				2360774D3635134FF5A311E003569B70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22952EC8FF7664A441CC981C09FAD801 /* PBXTargetDependency */,
+			);
+			name = YLT_RecordAudio;
+			productName = YLT_RecordAudio;
+			productReference = CF9374565FA5ED72C9D7E0B80A239208 /* libYLT_RecordAudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8F467CA04F9F2FC31A88466F53FD9C5E /* Pods-YLT_RecordAudio_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C99F43B1CA5357316971A8E615FD2D /* Build configuration list for PBXNativeTarget "Pods-YLT_RecordAudio_Tests" */;
+			buildPhases = (
+				BDA44C606BE44CD907FD298DDA306B55 /* Sources */,
+				F073125059B95487342A9AAB284294C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YLT_RecordAudio_Tests";
+			productName = "Pods-YLT_RecordAudio_Tests";
+			productReference = C42C327FD654CEED23448A0EB401B843 /* libPods-YLT_RecordAudio_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4778A624CC88B13AB618F27435FE80B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598A3245F7F0428D9130C3A7A5505BB8 /* Pods-YLT_RecordAudio_Example */,
+				8F467CA04F9F2FC31A88466F53FD9C5E /* Pods-YLT_RecordAudio_Tests */,
+				7840E24FCD2DEF27B4B055644B02BEB7 /* YLT_RecordAudio */,
+				529A9B64F2D738F8AA2952594FD2FDC8 /* YLT_RecordAudio-YLT_RecordAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F832527AEB4F425C6ACB6501E337D117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E37AD68F0F2C67044F4F357CB37957C /* voice_record_0.png in Resources */,
+				6CAE59F1B70813A4C8FC9151C5BFB0DB /* voice_record_1.png in Resources */,
+				172626000D354D3FC26C605D5A71DA50 /* voice_record_2.png in Resources */,
+				0797AE7FF17695FEFA565DE8082A99B4 /* voice_record_3.png in Resources */,
+				B1548F300A780B545CFA5EC51E56E7E6 /* voice_record_4.png in Resources */,
+				264422694A634D8AA3C75A5ECF45F1C3 /* voice_record_5.png in Resources */,
+				D69954FD329CBE6728A6701E1F1CB387 /* voice_record_6.png in Resources */,
+				27D26ED5AC936051FDB15ECC161C3A60 /* voice_record_7.png in Resources */,
+				4FB3CDA3224A8ACAD61EADBD6A3D01D8 /* voice_record_cancel.png in Resources */,
+				5CE335CE35CC2342CE963253BBC8909F /* voice_record_tooshort.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7438C7E7C14ACDB5157FD46906DD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66031F573E3190BE696B2F5EB75E425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3D3B7392F6FF4829D4FA33D616BC72 /* AudioStreamer.m in Sources */,
+				A2C8A8AC70D088DFB6E2D1795CD2B72A /* YLT_RecordAudio-dummy.m in Sources */,
+				0DCFDB5044943923EA18AA96E0233612 /* YLT_RecordHelper.m in Sources */,
+				0EAE95F11D08938F6118E77DE3EE3992 /* YLT_RecordManager.m in Sources */,
+				522C915537DF4B7F0E5DFE3BF082D8CB /* YLT_RecordProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA44C606BE44CD907FD298DDA306B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F48139B7B0EA7BCEC0428EA7508ED6A /* Pods-YLT_RecordAudio_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB22C8D23E6D03C7F9215B97B5D09E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAF34233B8B07C22DDCD3FD0364E6AE /* Pods-YLT_RecordAudio_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22952EC8FF7664A441CC981C09FAD801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YLT_RecordAudio-YLT_RecordAudio";
+			target = 529A9B64F2D738F8AA2952594FD2FDC8 /* YLT_RecordAudio-YLT_RecordAudio */;
+			targetProxy = 7C07DDAEAC44C69E507E2D5590717548 /* PBXContainerItemProxy */;
+		};
+		B1EFDD8F58CCA118348FB60CACF76C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YLT_RecordAudio;
+			target = 7840E24FCD2DEF27B4B055644B02BEB7 /* YLT_RecordAudio */;
+			targetProxy = 4D15E0A578A77E1DCF4F7FF27D036A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B1D8ADEAAB3D231E46B092E0C53903B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB237DCF30112EEF0158C61D13A104E /* YLT_RecordAudio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLT_RecordAudio";
+				INFOPLIST_FILE = "Target Support Files/YLT_RecordAudio/ResourceBundle-YLT_RecordAudio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YLT_RecordAudio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4006B1F4121A00BA0610B77CEC58B67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4A01F6F62649B9594B8168700DBE40 /* Pods-YLT_RecordAudio_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BAE04DBF494A69F77EADB7DEF9CF68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB237DCF30112EEF0158C61D13A104E /* YLT_RecordAudio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLT_RecordAudio";
+				INFOPLIST_FILE = "Target Support Files/YLT_RecordAudio/ResourceBundle-YLT_RecordAudio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YLT_RecordAudio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7D1C366BB3019728C7EADC35D0EC27ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB237DCF30112EEF0158C61D13A104E /* YLT_RecordAudio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YLT_RecordAudio/YLT_RecordAudio-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DE36E414609652167548CA8F98C546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEE76419E4253DA4E25A608ED16A803 /* Pods-YLT_RecordAudio_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93463F05E33DDD654DC3841C4221F6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A39141A76680C701F1EF4D09FEB3300 /* Pods-YLT_RecordAudio_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F5B76A0D79A0C82F5AD329A20911F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5426B21B89EC03D322A030408038B6 /* Pods-YLT_RecordAudio_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD886D4F54017D5D0BA73359BF6AD88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB237DCF30112EEF0158C61D13A104E /* YLT_RecordAudio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YLT_RecordAudio/YLT_RecordAudio-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E953683A0D94344C6D35E73E2446A4C /* Build configuration list for PBXNativeTarget "YLT_RecordAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1C366BB3019728C7EADC35D0EC27ED /* Debug */,
+				DD886D4F54017D5D0BA73359BF6AD88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C99F43B1CA5357316971A8E615FD2D /* Build configuration list for PBXNativeTarget "Pods-YLT_RecordAudio_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93463F05E33DDD654DC3841C4221F6B8 /* Debug */,
+				4006B1F4121A00BA0610B77CEC58B67B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F62DB09B7537C64753C8F611F64F40E /* Build configuration list for PBXNativeTarget "YLT_RecordAudio-YLT_RecordAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BAE04DBF494A69F77EADB7DEF9CF68C /* Debug */,
+				0B1D8ADEAAB3D231E46B092E0C53903B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5F33BA1431C79D988974884AE1B436 /* Build configuration list for PBXNativeTarget "Pods-YLT_RecordAudio_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5B76A0D79A0C82F5AD329A20911F21 /* Debug */,
+				84DE36E414609652167548CA8F98C546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

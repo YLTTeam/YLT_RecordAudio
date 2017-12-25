@@ -1,0 +1,19 @@
+PODS:
+  - libmp3lame (0.0.2)
+  - YLT_RecordAudio (0.1.0):
+    - libmp3lame
+
+DEPENDENCIES:
+  - YLT_RecordAudio (from `../`)
+
+EXTERNAL SOURCES:
+  YLT_RecordAudio:
+    :path: ../
+
+SPEC CHECKSUMS:
+  libmp3lame: 4d96f3cf479a57493740b65a446ee338d4592acd
+  YLT_RecordAudio: 1d7d6324c259ac4d09f48441a0d37e556361dc6d
+
+PODFILE CHECKSUM: dc328bc3c517ecf1ec6a1c89f1428e0dcd17422f
+
+COCOAPODS: 1.4.0.beta.2

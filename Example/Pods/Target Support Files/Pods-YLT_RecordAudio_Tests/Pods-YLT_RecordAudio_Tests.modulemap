@@ -1,0 +1,6 @@
+framework module Pods_YLT_RecordAudio_Tests {
+  umbrella header "Pods-YLT_RecordAudio_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
